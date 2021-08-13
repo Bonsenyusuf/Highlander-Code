@@ -1,0 +1,81 @@
+html,
+body{
+    background-color: bisque;
+}
+
+.static{
+    position: static;
+    border: 2px solid red;
+    background-color: white;
+    padding: 5px;
+}
+
+.relative-one{
+    position: relative;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    top: 20%;
+    left: 30%; 
+
+} 
+
+.relative-two{
+    position: relative;
+    border: 2px solid orange;
+    width: 600px;
+    height: 400px;
+    padding: 2px;
+    margin-top: 15px; 
+
+}
+
+.absolute{
+    position: absolute;
+    border: 2px solid hotpink;
+    background-color: white;
+    padding: 5px;
+    height: 250px;
+    width: 300px;
+    top: 430px;
+    left: 250px;
+    line-height: 1;
+
+}
+
+.fixed{
+    border: 2px solid yellow;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+/* css for floats */
+code {
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+  }
+  header,
+  section,
+  aside,
+  footer {
+    margin: 0 1.5% 24px 1.5%;
+  }
+  section {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5% 24px 1.5%;
+  }
+  footer {
+    clear: both;
+    margin-bottom: 0;
+  }
+  

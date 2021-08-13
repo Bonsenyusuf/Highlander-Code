@@ -1,0 +1,61 @@
+#block1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightgreen;
+    width: 10%;
+    height: 10vh;
+    opacity: 1;
+}
+
+#block2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 10vh;
+    width: 10%;
+    background-color: blueviolet;
+}
+
+#buttons {
+    position: absolute;
+    top: 2;
+    left: 50%;
+}
+
+#move {
+    position: absolute;
+    left: 25%;
+}
+
+#size {
+    position: absolute;
+    left: 30%;
+}
+
+#opacity {
+    position: absolute;
+    left: 35%;
+}
+
+#color {
+    position: absolute;
+    left: 40%;
+}
+
+#move:hover #block2 {
+    top: 50%;
+    left:50%;
+}
+
+#size:hover #block1 {
+    transform: scale(2);
+}
+
+#opacity:hover #block1 {
+    opacity: 0.7;
+}
+
+#color:hover #block1{
+    background-color: blue;
+}

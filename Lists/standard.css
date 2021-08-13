@@ -1,0 +1,36 @@
+html,
+.r {
+    color:red;
+  }
+  .o {
+    color:orange;
+  }
+  .y {
+    color:yellow;
+  }
+  .g {
+    color:green;
+  }
+  .p {
+    color:hotpink;
+  }
+  .sc {
+    color:purple;
+  }
+  
+  .one {
+    background-color:pink;
+    font-size: 17px;
+    font-family: 'Gloria Hallelujah'
+  }
+  
+  nav {
+    Background-color:purple;
+    font-family: 'PT Sans Narrow', Sans-serif;
+    font-size:30px;
+  }
+  .two {
+    text-align: center;
+    text-decoration: underline;
+  }
+  

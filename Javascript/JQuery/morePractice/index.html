@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Button click</button></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+        <style>
+            .my_p{
+                background-color: yellow;
+            } .my_p2{ 
+                background-color: aqua;}
+
+            
+            
+        </style>
+        <script>
+            $(function() {
+                $("#my_b").click(function(){
+                $("#display1").html("Welcome to Highlander Code Camp!")
+            });
+            $('.t_input').click(function(){
+                    $(this).css('background-color', 'yellow');
+
+         });
+
+            $('#display2').click(function(){
+                $('#display2').removeClass('my_p').addClass
+                ('my_p2');
+            }
+    });
+
+            
+            
+        </script>
+    </head>
+
+    <body>
+        
+        <button type="button" id="my_b">Click Me</button>
+        <span id="display1"></span>
+
+
+        <br/>
+        <br/>
+
+        <input type="text" class="t_input" id="t2">
+        <input type="text" class="t_input" id="t3">
+        <input type="text" class="t_input" id="t4">
+
+
+        <p id="display2" class="my_p">This is with the class my_p. Click it to change background color</p>
+        <p id="display3" >Click here to toggle the background color of the display</p>
+    </body>
+
+</html>

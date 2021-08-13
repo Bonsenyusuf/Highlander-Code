@@ -1,0 +1,30 @@
+
+.three-column{
+    width: 33%;
+}
+
+.box-one{
+    width: 6em;
+    height:6em;
+    background: yellow;
+    transform: rotate(25deg);
+}
+
+.box {
+    width: 6em;
+    height:6em;
+    background: yellow;
+}
+
+.scale{
+    transform: scale(1.5);
+}
+
+.scale-x {
+    transform: scaleX(.5);
+    transform: skewX(.7);
+}
+
+.scale-y{
+    transform: scaleY(.5);
+}
